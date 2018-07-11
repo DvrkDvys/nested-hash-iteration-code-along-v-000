@@ -23,9 +23,10 @@ contacts.each do |person, data|
       value.each do |flavor|
        flavor.delete if flavor == "strawberry"
       # binding.pry
-         return contacts
+        # return contacts
       end
     end
+    return contacts
   end
 end
 end
