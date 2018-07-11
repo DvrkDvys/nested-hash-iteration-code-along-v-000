@@ -26,8 +26,8 @@ def remove_strawberry(contacts)
         # flavor.delete if flavor == "strawberry"
         # # binding.pry
         #   # return contacts
-        # end
-      end
+      #   # end
+      # end
     end
   end
 end
