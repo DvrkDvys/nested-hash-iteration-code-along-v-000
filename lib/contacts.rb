@@ -23,7 +23,6 @@ def remove_strawberry(contacts)
         value.each do |flavor|
           flavor.reject! {|flavor| flavor = "strawberry"} 
           
-          
         # flavor.delete if flavor == "strawberry"
         # # binding.pry
         #   # return contacts
