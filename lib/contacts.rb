@@ -21,9 +21,8 @@ contacts.each do |person, data|
 
     if attribute == :favorite_ice_cream_flavors
       value.each do |flavor|
-       if flavor == "strawberry"
-         binding.pry
-         contacts.delete flavor
+       flavor.delete if flavor == "strawberry"
+       binding.pry
          return contacts
        end
       end
